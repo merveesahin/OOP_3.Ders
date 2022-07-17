@@ -26,6 +26,12 @@ namespace OOP_3.Ders
             Console.WriteLine(ev.KapiNumarasi);
 
             DataBaseRepository.GetInstance().ConnectDataBase();
+
+            //ödev
+            string kullaniciAdi = ödev.nesneAl().getKullaniciAdi();
+            string sifre = ödev.nesneAl().getSifre();
+            Console.WriteLine(kullaniciAdi);
+            Console.WriteLine(sifre);
         }
     }
 }
